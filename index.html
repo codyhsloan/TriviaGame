@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Game of Thrones Trivia Game</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    
+    <div class="parallax-container" id='parall'>
+        <section id="introSection">
+            <h1 class="center-align" id='header'>Game of Thrones Trivia Game</h1>
+            <div class="row" id="introCard">
+                <div class="col s6 offset-s3">
+                    <div class="center-align">
+                        <span>How Much Do You Know About Game of Thrones?</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="buttonRow">
+                <div class="col s3 offset-s3 center-align">
+                    <a class="waves-effect waves-light btn-large btn-flat tooltipped" id="startButton">Start</a>
+                </div>
+                <div class="col s3 center-align">
+                    <a class="modal-trigger waves-effect waves-light btn-large btn-flat tooltipped" id="instructionButton">Instructions Down Below</a>
+                </div>
+            </div>
+            <!-- QUESTIONS -->
+            <section id="questionSpace" class="container">
+                <div class="row">
+                    <div class="col s12 center-align" id="timer">
+                        <!-- TIME -->
+
+                    </div>
+                </div>
+                <div class="row" id="messageSection">
+                    <div class="col s12" id="gameMessage">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="questionContainer" class="col s12 center-align">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="choices" class="col s8 offset-s2 center-align">
+                        <!-- PUSH QUESTIONS IN <p> -->
+                    </div>
+                </div>
+            </section>
+            <!-- END QUESTIONS -->
+        </section>
+
+
+    </div>
+
+
+    <!-- Modal Structure -->
+    <div id="instructionModal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h3>Instructions</h3>
+            <p>Do you think you know all there is to know about your favorite TV show Game of Thrones? If the answer is yes, then try your hand at this trivia game. </p>
+            <p>
+                Press the START button and play through the quiz. After you're done, the computer will calculate your score and let you know how you did.
+            </p>
+            <div class="center-align">
+        
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- JQUERY UI CDN -->
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <!-- MATERIALIZE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/dce08cf54a.js"></script>
+    <!-- TRIVIA JS -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
